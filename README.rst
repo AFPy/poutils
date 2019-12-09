@@ -47,4 +47,4 @@ translations from a bunch of file to other files.
 padpo
 -----
 
-Linter for gettext files (`*.po`) using Grammalecte.
+Linter for gettext files (*.po) including Grammalecte, non-breakable space checks, glossary checks etc …
