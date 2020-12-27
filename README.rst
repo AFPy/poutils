@@ -45,7 +45,7 @@ translations from a bunch of file to other files.
 
 
 `padpo <https://pypi.org/project/padpo/>`_
-----------------------------------------
+------------------------------------------
 
 Linter for gettext files (``*.po``) including Grammalecte,
 non-breakable space checks, glossary checks etc ...
