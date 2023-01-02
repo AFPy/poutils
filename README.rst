@@ -49,3 +49,9 @@ translations from a bunch of file to other files.
 
 Linter for gettext files (``*.po``) including Grammalecte,
 non-breakable space checks, glossary checks etc ...
+
+
+`sphinx-lint <https://pypi.org/project/sphinx-lint/>`_
+------------------------------------------
+
+A reasonably fast and accurate linter that focuses on finding errors that are not caught by sphinx-build.
