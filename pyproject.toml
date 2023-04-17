@@ -1,0 +1,44 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "poutils"
+version = "0.15.2"
+description = "Gettext related tools: spellcheck, line wrapping etc..."
+readme = "README.rst"
+keywords = [
+    "poutils",
+    "gettext",
+    "powrap",
+    "pospell",
+    "pogrep",
+    "potodo",
+    "pomerge",
+    "padpo",
+]
+authors = [
+    {name = "Jules Lasne", email = "jules.lasne@gmail.com"},
+]
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+]
+dependencies = [
+    "powrap==1.0.1",
+    "pospell==1.1",
+    "pogrep==0.1.4",
+    "potodo==0.21.3",
+    "pomerge==0.1.4",
+    "padpo==0.11.0",
+    "sphinx-lint==0.6.7",
+]
+
+[project.license]
+text = "MIT"
+
+[project.urls]
+Homepage = "https://github.com/afpy/poutils"
+
+[tool.setuptools]
+include-package-data = false
